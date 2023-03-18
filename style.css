@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #202733;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    padding-left:16px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.main-div{
+    width: 343px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #313A48;
+    padding: 24px;
+    padding-top: 40px;
+    
+}       
+.advice-Num{
+    width: 150px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 11px;
+    letter-spacing: 3.5px;
+    color: #53FFAA;
+    margin: auto;
+}
+
+.advice-Text{
+    width: 295px;
+    height: 132px;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.25px;
+    color: #CEE3E9;
+    margin: auto;
+    margin-top: 24px;
+
+}
+
+
+.mobile-img{
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+}
+.dekstop-img{
+    display: none;
+}
+
+#dice-box{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    align-content: space-around;
+    display: grid;
+    justify-content: center;
+    margin:auto ;
+    margin-top: 33px;
+    background-color: #53FFAA;
+    border:none;
+}
+#dice-box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px #53FFAA;
+    rotate: 45deg;
+}
+
+
+@media screen and (min-width:1440px){
+    
+    body{
+        padding: 450px ;
+        padding-top: 223px;
+    }
+    .main-div{
+        width: 540px;
+        height: 332px;
+        border-radius: 15px;
+    }
+    .advice-Num{
+        width: 150px;
+        height: 18px;
+        font-size: 13px;
+        letter-spacing: 4.1px;
+        
+    }
+    .advice-Text{
+        width: 444px;
+        height: 114px;
+        font-size: 28px;
+        letter-spacing: -0.3px;
+    }
+    .mobile-img{
+        display: none;
+    }
+    .dekstop-img{
+        display: block;
+        margin: auto;
+        margin-top: 48px;
+    }
+    #dice-box{
+        margin-top: 40px;
+    }
+   
+
+
+}
